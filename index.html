@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommender Conversion Predictor</title>
+</head>
+<body>
+    <h2> Predict Conversion from Recommendation</h2>
+    <form method="POST">
+        Age: <input type="number" name="age" min="18" max="65" required><br><br>
+        Gender:
+        <select name="gender">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select><br><br>
+        Device Type:
+        <select name="device">
+            <option>Mobile</option>
+            <option>Desktop</option>
+            <option>Tablet</option>
+        </select><br><br>
+        Location:
+        <select name="location">
+            <option>Bangalore</option>
+            <option>Mumbai</option>
+            <option>Delhi</option>
+            <option>Hyderabad</option>
+            <option>Chennai</option>
+            <option>Kolkata</option>
+        </select><br><br>
+        Time Spent (seconds): <input type="number" name="time_spent" min="10" max="1000" required><br><br>
+        Pages Viewed: <input type="number" name="pages_viewed" min="1" max="20" required><br><br>
+        Product Category:
+        <select name="category">
+            <option>Electronics</option>
+            <option>Fashion</option>
+            <option>Home</option>
+            <option>Books</option>
+            <option>Beauty</option>
+        </select><br><br>
+        Recommendation Engine:
+        <select name="engine">
+            <option>Old</option>
+            <option>New</option>
+        </select><br><br>
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+        <h3>Prediction: {{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>
