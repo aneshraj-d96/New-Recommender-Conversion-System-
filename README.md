@@ -1,21 +1,23 @@
 # 🔄 New Recommender Conversion System
 
-A data-driven recommender system built to optimize product suggestions and boost user conversion rates. This project analyzes 200K+ user sessions to evaluate recommendation engine performance and predict conversion outcomes using Flask for deployment.
+A full-stack analytics solution designed to evaluate recommendation engine performance and predict user conversion outcomes. This project empowers product teams, marketers, and analysts with predictive insights and interactive dashboards to optimize recommendation strategies and boost engagement.
 
 ---
-## 🚗 GitHub Project Repository: 
-[Click to view New-Recommender-Conversion-System](https://github.com/aneshraj-d96/New-Recommender-Conversion-System-)
+
+## 🚗 GitHub Project Repository  
+🔗 [Click to view New-Recommender-Conversion-System](https://github.com/aneshraj-d96/New-Recommender-Conversion-System-)
 
 ---
+
 ## 🧠 Project Overview
 
-Recommendation engines are key to driving engagement and sales. This system evaluates user behavior, device usage, and recommendation strategies to predict conversion likelihood and improve targeting.
+Recommendation engines are central to driving user engagement and sales. This project analyzes **200,000+ user sessions** to evaluate recommendation effectiveness, predict conversion likelihood, and visualize behavioral patterns across devices, locations, and product categories.
 
 **Key Objectives:**
 - Clean and preprocess session-level user data  
-- Analyze recommendation engine effectiveness  
-- Build predictive models for conversion likelihood  
-- Deploy interactive web app using Flask for business insights  
+- Analyze recommendation engine performance (Old vs. New)  
+- Build classification models to predict conversion  
+- Deploy interactive dashboards and Flask web app for business decision-making  
 
 ---
 
@@ -38,7 +40,7 @@ Recommendation engines are key to driving engagement and sales. This system eval
 ## 🧹 Data Preprocessing
 
 - Encoded categorical features (`Gender`, `Device_Type`, `Location`, `Recommended_Product_Category`, `Recommendation_Engine`)  
-- Normalized `Time_Spent` and `Pages_Viewed`  
+- Normalized continuous variables (`Time_Spent`, `Pages_Viewed`)  
 - Removed duplicates and ensured type consistency  
 - Converted `Converted` to binary target variable  
 
@@ -48,14 +50,10 @@ Recommendation engines are key to driving engagement and sales. This system eval
 
 - Conversion trends by age, gender, and device type  
 - Time spent vs. conversion correlation  
-- Recommendation engine performance (Old vs. New)  
+- Recommendation engine performance comparison  
 - Product category effectiveness  
 - Location-based engagement patterns  
 
-**Power BI Dashboard**  
-<img src="https://image2url.com/images/1755857842235-4cf63a6a-c0c0-4967-85cc-66157ca1d2b9.png" alt="Dashboard Preview" width="600"/>
-<img src="https://image2url.com/images/1755857940558-29497c42-adfd-46b2-a013-aadb5d66423e.png" alt="Dashboard Preview" width="600"/>
- 
 ---
 
 ## 🤖 Modeling Approach
@@ -67,21 +65,33 @@ Recommendation engines are key to driving engagement and sales. This system eval
 
 ---
 
-## 🌐 Web App Overview
+## 📊 Dashboard Overview
 
-Built using **Flask**, the web app includes:
+### 🔷 Power BI Dashboard  
+Visualizes conversion behavior and recommendation engine performance:
 
-- 📈 Conversion rate trends  
-- 🧠 Recommendation engine comparison  
-- 📊 User engagement metrics  
-- 🛍️ Product category performance  
+- 📊 Conversion trends by age, gender, and location  
+- 🧠 Comparison of old vs. new recommendation engines  
+- 📈 Time spent and page views correlation with conversion  
+- 🛍️ Product category effectiveness  
 - 📍 Location-based conversion heatmap  
 
-**Flask app Dashboard**
+![Power BI Preview](https://image2url.com/images/1755857842235-4cf63a6a-c0c0-4967-85cc-66157ca1d2b9.png)
+![Power BI Preview](https://image2url.com/images/1755857940558-29497c42-adfd-46b2-a013-aadb5d66423e.png)
 
-  <img src="https://image2url.com/images/1755857985692-202290a3-31be-4ceb-8f57-60543c50ea04.png" alt="Dashboard Preview" width="600"/>  
-  <img src="https://image2url.com/images/1755858043723-87f0849e-0c92-4ed6-8b93-ac6e85fe0396.png" alt="Dashboard Preview" width="600"/>
-  
+---
+
+### 🟢 Flask Web App  
+Interactive web interface for conversion prediction and dashboard insights:
+
+- 🧠 Input session attributes to predict conversion likelihood  
+- 📈 Visual breakdown of feature importance  
+- 📊 Recommendation engine performance metrics  
+- 🔍 Dynamic filtering by device, location, and product category  
+
+![Flask App Preview](https://image2url.com/images/1755857985692-202290a3-31be-4ceb-8f57-60543c50ea04.png)
+![Flask App Preview](https://image2url.com/images/1755858043723-87f0849e-0c92-4ed6-8b93-ac6e85fe0396.png)
+
 ---
 
 ## 🚀 Deployment
@@ -95,10 +105,10 @@ Built using **Flask**, the web app includes:
 
 ## 🧠 Business Impact
 
-- Identifies high-converting user segments  
-- Optimizes recommendation engine strategies  
-- Enhances personalization and targeting  
-- Drives higher engagement and conversion rates  
+- Identifies high-converting user segments for targeted campaigns  
+- Optimizes recommendation engine strategies for better ROI  
+- Enhances personalization based on device and location insights  
+- Drives higher engagement and conversion rates across platforms  
 
 ---
 
@@ -106,7 +116,7 @@ Built using **Flask**, the web app includes:
 
 - **Python**: Pandas, NumPy, Scikit-learn, Flask  
 - **SQL**: Data extraction and filtering  
-- **Visualization**: Matplotlib, Seaborn, Plotly  
+- **Visualization**: Power BI, Matplotlib, Seaborn, Plotly  
 - **Deployment**: Flask, GitHub, Git LFS  
 
 ---
@@ -114,9 +124,9 @@ Built using **Flask**, the web app includes:
 ## 📌 Future Enhancements
 
 - Integrate real-time recommendation APIs  
-- Add user journey visualization  
+- Add user journey visualization and funnel metrics  
 - Enable A/B testing simulation for engine variants  
-- Expand dashboard to include ROI and funnel metrics  
+- Expand dashboard to include ROI and conversion attribution  
 
 ---
 
@@ -125,4 +135,5 @@ Built using **Flask**, the web app includes:
 **Anesh Raj**  
 Data Analyst | Data Scientist | Business Analyst  
 Focused on multi-industry impact through predictive modeling and dashboarding.  
-📍 Chennai, India
+📍 Chennai, India  
+🔗 [GitHub Profile](https://github.com/aneshraj-d96)
