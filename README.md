@@ -133,7 +133,5 @@ Interactive web interface for conversion prediction and dashboard insights:
 ## 👤 Author
 
 **Anesh Raj**  
-Data Analyst | Data Scientist | Business Analyst  
-Focused on multi-industry impact through predictive modeling and dashboarding.  
-📍 Chennai, India  
+
 🔗 [GitHub Profile](https://github.com/aneshraj-d96)
